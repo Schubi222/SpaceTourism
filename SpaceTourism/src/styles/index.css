@@ -1,4 +1,3 @@
-@use "Variables";
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -10,69 +9,77 @@
 body {
   min-width: 320px;
   min-height: 100vh;
-  color: Variables.$CWhite;
+  color: #FFFFFF;
   margin: 0;
 }
-.heading1, .heading2, .heading3, .heading4, .subheading1, .subheading2, .NavText{
+
+.heading1, .heading2, .heading3, .heading4, .subheading1, .subheading2, .NavText {
   text-transform: uppercase;
-  color: Variables.$CWhite;
+  color: #FFFFFF;
 }
 
-.heading1{
+.heading1 {
   font-size: 150px;
 }
-.heading2{
+
+.heading2 {
   font-size: 100px;
 }
-.heading3{
+
+.heading3 {
   font-size: 56px;
 }
-.heading4{
+
+.heading4 {
   font-size: 32px;
 }
-.heading5{
+
+.heading5 {
   font-size: 22px;
   text-transform: uppercase;
-  color: Variables.$CGrey;
+  color: #D0D6F9;
   letter-spacing: 4.72px;
 }
 
-.subheading1{
+.subheading1 {
   font-size: 28px;
 }
-.subheading2{
+
+.subheading2 {
   font-size: 14px;
   letter-spacing: 2.35px;
 }
-.NavText{
+
+.NavText {
   font-size: 16px;
   letter-spacing: 2.7px;
-  transition: all .4s;
+  transition: all 0.4s;
   text-decoration: none;
-  &:hover{
-    text-decoration-color: #979797;
-    text-decoration: underline;
-
-  }
-  &:active{
-    text-decoration-color: Variables.$CWhite;
-    text-decoration: underline;
-
-  }
 }
-.Landing-Page-Main-Button{
+.NavText:hover {
+  text-decoration-color: #979797;
+  text-decoration: underline;
+}
+.NavText:active {
+  text-decoration-color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.Landing-Page-Main-Button {
   width: 274px;
   height: 274px;
-  background: Variables.$CWhite;
+  background: #FFFFFF;
   border-radius: 100%;
-  transition: all .4s;
+  transition: all 0.4s;
   display: flex;
-  color: Variables.$CBlack;
+  color: #0B0D17;
   justify-content: center;
   align-items: center;
   font-size: 30px;
   cursor: pointer;
-  &:hover{
-    box-shadow:0 0 0 80px rgba(255,255,255,0.11);
-  }
 }
+.Landing-Page-Main-Button:hover {
+  box-shadow: 0 0 0 80px rgba(255, 255, 255, 0.11);
+}
+
+/*# sourceMappingURL=index.css.map */

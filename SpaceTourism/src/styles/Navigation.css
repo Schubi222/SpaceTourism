@@ -1,0 +1,38 @@
+.Navigation-Wrapper {
+  margin-top: 40px;
+  margin-left: 55px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+}
+.Navigation-Wrapper > nav {
+  margin-left: auto;
+  position: relative;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  margin-right: auto;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+.Navigation-Wrapper > nav .NavText-number {
+  font-weight: bold;
+  margin-right: 12px;
+}
+.Navigation-Wrapper > nav .NavText {
+  padding: 2px;
+}
+.Navigation-Wrapper .line {
+  width: 40vw;
+  margin-left: 150px;
+  position: relative;
+  height: 1px;
+  border-bottom: 1px solid rgba(208, 214, 249, 0.25);
+  z-index: 2;
+  left: 30px;
+}
+
+/*# sourceMappingURL=Navigation.css.map */

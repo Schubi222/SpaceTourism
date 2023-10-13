@@ -1,0 +1,21 @@
+body{
+  background-image: url("/src/assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.HomeView-Wrapper{
+
+  position: relative;
+}
+.Text-Box{
+  width: 450px;
+  height: 100%;
+  position: absolute;
+  left: 10vw;
+  top: 40vh;
+}
+.Landing-Page-Main-Button{
+  position: absolute;
+  right: 10vw;
+  top: 40vh;
+}
