@@ -1,0 +1,78 @@
+@use "Variables";
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  color: Variables.$CWhite;
+}
+.heading1, .heading2, .heading3, .heading4, .subheading1, .subheading2, .NavText{
+  text-transform: uppercase;
+  color: Variables.$CWhite;
+}
+
+.heading1{
+  font-size: 150px;
+}
+.heading2{
+  font-size: 100px;
+}
+.heading3{
+  font-size: 56px;
+}
+.heading4{
+  font-size: 32px;
+}
+.heading5{
+  font-size: 32px;
+  text-transform: uppercase;
+  color: Variables.$CGrey;
+  letter-spacing: 4.75px;
+}
+
+.subheading1{
+  font-size: 28px;
+}
+.subheading2{
+  font-size: 14px;
+  letter-spacing: 2.35px;
+}
+.NavText{
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  transition: all .4s;
+  &:hover{
+    text-underline: #979797;
+  }
+  &:active{
+    text-underline: Variables.$CWhite;
+  }
+}
+.Landing-Page-Main-Button{
+  width: 274px;
+  height: 274px;
+  background: Variables.$CWhite;
+  border-radius: 100%;
+  transition: all .4s;
+  &:hover{
+    stroke: #979797;
+    stroke-width: 88px;
+  }
+}
