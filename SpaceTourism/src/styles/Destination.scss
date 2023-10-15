@@ -1,0 +1,12 @@
+.Destination-Wrapper{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: space-evenly;
+  & > img{
+    width: 445px;
+  }
+}
+.Bottom-Info-Wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

@@ -53,16 +53,19 @@ body {
 .NavText {
   font-size: 16px;
   letter-spacing: 2.7px;
-  transition: all 0.4s;
-  text-decoration: none;
+  text-decoration: none !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 .NavText:hover {
-  text-decoration-color: #979797;
-  text-decoration: underline;
+  border-bottom: 2px solid #979797;
+  padding-top: 22px !important;
 }
-.NavText:active {
-  text-decoration-color: #FFFFFF;
-  text-decoration: underline;
+
+.active {
+  border-bottom: 2px solid #D0D6F9;
+  padding-top: 22px !important;
+  padding-bottom: 20px !important;
 }
 
 .Landing-Page-Main-Button {

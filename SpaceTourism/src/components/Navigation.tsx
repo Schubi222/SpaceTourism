@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import "../styles/Navigation.css"
 
 export default function Navigation(){
@@ -8,18 +8,18 @@ export default function Navigation(){
             <img src="/src/assets/shared/logo.svg" alt="Logo"/>
             <span className={"line"}></span>
             <nav>
-                <Link to={"/"} className={"NavText"}>
+                <NavLink to={"/"} className={`NavText`}>
                     <span className={"NavText-number"}>00</span> Home
-                </Link>
-                <Link to={"/destination"} className={"NavText"}>
+                </NavLink>
+                <NavLink to={"/destination"} className={`NavText`} >
                     <span className={"NavText-number"}>01</span>destination
-                </Link>
-                <Link to={"/crew"} className={"NavText"}>
+                </NavLink>
+                <NavLink to={"/crew"} className={`NavText`} >
                     <span className={"NavText-number"}>02</span>crew
-                </Link>
-                <Link to={"/technology"} className={"NavText"}>
+                </NavLink>
+                <NavLink to={"/technology"} className={`NavText`} >
                     <span className={"NavText-number"}>03</span>technology
-                </Link>
+                </NavLink>
             </nav>
         </div>
 

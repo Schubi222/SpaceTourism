@@ -16,7 +16,13 @@ export const router = createBrowserRouter([
             },
             {
                 path:"/destination",
-                element:<DestinationView/>
+                element:<DestinationView/>,
+                children:[
+                    {
+                        path:"/destination/:destination",
+                        element:<DestinationView/>,
+                    }
+                ]
             },
             {
                 path:"/crew",
